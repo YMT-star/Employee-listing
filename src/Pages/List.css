@@ -1,0 +1,53 @@
+.list {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 25px 0;
+    width: 100vw;
+}
+
+.list .add {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #23f110;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    margin-right: 10rem;
+    
+}
+
+table {
+    width: 100%;
+    padding: 0 5rem;
+}
+
+tr{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+td {
+    padding: 8px 0;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.action button {
+    padding: 5px 8px;
+    color: blue;
+}
+
+.action button:last-child {
+    color: red;
+}
+
+
