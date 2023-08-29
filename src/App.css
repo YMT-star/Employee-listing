@@ -1,1 +1,30 @@
 
+@media(max-width:600px) {
+    header{
+        padding: 15px 10px;
+    }
+    .left  a{
+        font-size: 15px;
+    }
+    ul li a{
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+        .action button{
+            font-size: 10px;
+        }
+    /* login from */
+    .login{
+        width: 20rem;
+    }
+    /* list css */
+    .list {
+        font-size: 10px;
+    }
+    .list .add{
+        font-size: 10px;
+    }
+    table{
+        padding: 0 1.5rem;
+    }
+}

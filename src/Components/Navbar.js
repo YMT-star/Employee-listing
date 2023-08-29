@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <header>
       <div className="left">
-        <h2>
+        
           <a href="/">Employee-Listing</a>
-        </h2>
+        
       </div>
       <ul>
         <li>
